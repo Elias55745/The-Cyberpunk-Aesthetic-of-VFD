@@ -1,5 +1,5 @@
 # The-Cyberpunk-Aesthetic-of-VFD
-My store, www.makerstore.fun, offers finished products for sale.
+My store, www.makerstore.fun, offers finished products and vfd Single module for sale.
 
 The fluorescent glow emitted by VFD displays possesses such a distinct cyber-futuristic vibe. As you can see, this type of display differs significantly from the common LED screens we encounter daily, and its operating principle is equally fascinating.![image](images/2.jpg)
 
