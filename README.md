@@ -15,6 +15,7 @@ Beneath each phosphor segment lies a tiny anode. When a positive voltage is appl
 You can adjust the PWM frequency in the code to find the most suitable and quietest setting for your environment. Caution: Do not set the PWM frequency too high, or it will burn out the filament; too low, and the display will appear dim.
 This screen uses an ESP-07S microcontroller, and the Arduino IDE is recommended for the development environment. The board reserves two push-button switches and one LED (active low) for your own development.
 You can directly flash the test code and develop custom programs based on it. A ready-made clock program is also provided. Before using the clock code that connects to Wi-Fi, you need to import the WiFiManager library to ensure it compiles and flashes correctly.
+
 ![image](images/1.png)
 
 The screen has a total of 21 segments. The mapping table in the code translates to binary to define the segment order.
