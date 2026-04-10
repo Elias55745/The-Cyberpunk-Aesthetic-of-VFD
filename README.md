@@ -20,7 +20,11 @@ Example:
 1: {0x84, 0x80, 0x08}
 0x84 = 10000100 0x80 = 10000000 0x08 = 00001000
 in this binary representation, 1 represents ON and 0 represents OFF. The segment mapping follows the bit order below (Horizontal segments are mapped to 0):
+
+
 7 ← 0  15 ← 8 20 ← 16
+
+
 Note: The three bits following bit 20 are unused. Horizontal segments are mapped to 0.
 
 ```cpp
