@@ -12,13 +12,17 @@ Beneath each phosphor segment lies a tiny anode. When a positive voltage is appl
 
 You can adjust the PWM frequency in the code to find the most suitable and quietest setting for your environment. Caution: Do not set the PWM frequency too high, or it will burn out the filament; too low, and the display will appear dim.
 This screen uses an ESP-07S microcontroller, and the Arduino IDE is recommended for the development environment. The board reserves two push-button switches and one LED (active low) for your own development.
-You can directly flash the test code and develop custom programs based on it. A ready-made clock program is also provided. Before using the clock code that connects to Wi-Fi, you need to import the WiFiManager library to ensure it compiles and flashes correctly.![image](images/1.png)
+You can directly flash the test code and develop custom programs based on it. A ready-made clock program is also provided. Before using the clock code that connects to Wi-Fi, you need to import the WiFiManager library to ensure it compiles and flashes correctly.
+![image](images/1.png)
 
 The screen has a total of 21 segments. The mapping table in the code translates to binary to define the segment order.
 Example:
 1: {0x84, 0x80, 0x08}
 0x84 = 10000100 0x80 = 10000000 0x08 = 00001000
-n this binary representation, 1 represents ON and 0 represents OFF. The segment mapping follows the bit order below (Horizontal segments are mapped to 0):
+in this binary representation, 1 represents ON and 0 represents OFF. The segment mapping follows the bit order below (Horizontal segments are mapped to 0):
+7 ← 0  15 ← 8 20 ← 16
+Note: The three bits following bit 20 are unused. Horizontal segments are mapped to 0.
+
 ```cpp
   Table 1 Mapping
   {0x8a,0x88,0x06}, // 0
@@ -99,3 +103,8 @@ n this binary representation, 1 represents ON and 0 represents OFF. The segment 
   {0x47,0x12,0x0f}, // Z 35
   {0xff,0xff,0xff}, // All ON 36
   {0x00,0x00,0x00}  // Clear 37
+```
+If you're still confused, just share the code and images with an AI—it can help you achieve exactly what you want.
+The repository contains the schematics and Arduino example code. Feel free to modify them to achieve your desired effect.
+
+        
