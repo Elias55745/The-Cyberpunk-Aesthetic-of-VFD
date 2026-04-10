@@ -25,7 +25,7 @@ Example:
 in this binary representation, 1 represents ON and 0 represents OFF. The segment mapping follows the bit order below (Horizontal segments are mapped to 0):
 
 
-7 ← 0  15 ← 8 20 ← 16
+7 ← 0    15 ← 8   20 ← 16
 
 
 Note: The three bits following bit 20 are unused. Horizontal segments are mapped to 0.
