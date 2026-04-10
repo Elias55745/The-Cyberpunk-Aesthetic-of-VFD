@@ -1,5 +1,5 @@
 # The-Cyberpunk-Aesthetic-of-VFD
-The fluorescent glow emitted by VFD displays possesses such a distinct cyber-futuristic vibe. As you can see, this type of display differs significantly from the common LED screens we encounter daily, and its operating principle is equally fascinating.
+The fluorescent glow emitted by VFD displays possesses such a distinct cyber-futuristic vibe. As you can see, this type of display differs significantly from the common LED screens we encounter daily, and its operating principle is equally fascinating.![image](images/2.jpg)
 
 You can conceptualize it as a miniaturized Cathode Ray Tube (CRT), with its core mechanism relying on thermionic emission to excite phosphors. If you observe closely, you will notice several extremely fine tungsten filaments at the very top. These filaments are coated with oxides of barium, strontium, and calcium.
 
